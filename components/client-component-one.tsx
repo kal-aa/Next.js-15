@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { ServerComponentOne } from "./server-component-one";
+// import { useState } from "react";
+// import { ServerComponentOne } from "./server-component-one";
 
 export const ClientComponentOne = ({
   children,
@@ -10,7 +10,7 @@ export const ClientComponentOne = ({
   children?: React.ReactNode;
   //   serverComponentOne: React.ReactNode;
 }) => {
-  const [name, setName] = useState("Batman");
+  // const [name, setName] = useState("Batman");
 
   return (
     <>
